@@ -1,0 +1,112 @@
+﻿body {
+}
+
+
+.container-fluid .row .col-sm-12 {
+    background: url('../PHOTO/index.jpg') no-repeat  center;
+    background-size:cover;
+    height: 600px;
+    border-bottom:solid Silver 5PX;
+        display:inline-block;
+
+}
+
+
+.container .row .col-sm-6 h3{
+    color:RED;
+    border-bottom:solid 2PX RED;
+        display:inline-block;
+
+}
+ ul{
+      list-style-type:none;
+ }
+
+
+ .container-fluid  .row .col-sm-4 img {
+     width:150PX;
+     height:150px;
+     border-radius:100%;
+     margin-left:100px;
+
+ }  
+
+  .container-fluid  .row .col-sm-4 h5 {
+border-bottom-color:silver;
+width:165px;
+border:solid 2px;
+color:cornflowerblue;
+margin-left:100px;
+ } 
+
+
+
+  .BACK .row .col-sm-12{
+     background: rgba(0, 0, 1, .9);
+     height:150px;
+}
+
+.BACK {
+   background: url('../PHOTO/amr.jpg')no-repeat center  ;
+   background-size:cover;
+   height:800px;
+
+}
+
+
+.container .row .col-sm-4 img{
+    width:100px;
+    border-radius:103px 10px 103px 103px;
+    margin-top:30px;
+}
+
+
+/*nav bar*/ 
+
+ .line a:hover{
+    text-decoration:none;
+
+}
+
+
+
+  .container-fluid .row  .col-sm-12 ul .line{
+      display:inline-block;
+              margin-left:50px;
+              padding:20px;
+
+  }
+
+
+    .container-fluid .row  .col-sm-12 ul {
+        background-color:gray;
+        display:inline-block;
+        margin-left:500px;
+        width:500px;
+  }
+
+
+
+      .container-fluid .row  .col-sm-12 ul .line a{
+     
+              color:white;
+              font-weight:bold;
+              border-right:solid gray 1px;
+              padding:6px;  
+  }
+
+      #HOME{
+border-bottom:RED solid 2PX;
+
+}
+
+      #BORDERLINE{
+    transition:0.4s;
+        border-bottom:rgba(0, 0, 0, 0) solid 2PX;
+        
+}
+#BORDERLINE:hover{
+    border-bottom:RED solid 2PX;
+
+}
+
